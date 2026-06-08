@@ -32,7 +32,7 @@ def palindrome_str(x):
     return str(x) == str(x)[::-1]
 
 for a in range(100,1000):
-    for b in range(100,1000):
+    for b in range(a,1000):
         x = a * b
         if (palindrome_str(x)):
             if (x > largest_prime):
